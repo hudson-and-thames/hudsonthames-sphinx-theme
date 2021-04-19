@@ -15,8 +15,7 @@ research articles.
 To use the Hudson and Thames Sphinx theme, add ``hudsonthames_sphinx_theme`` to the requirements list,
 and change the following line in the documentation config file:
 
-.. code-block:: python
-   html_theme = 'hudsonthames_sphinx_theme'
+``html_theme = 'hudsonthames_sphinx_theme'``
 
 ## Who is Hudson & Thames?
 Hudson and Thames Quantitative Research is a company with a focus on implementing the most cutting edge algorithms in 
@@ -33,4 +32,4 @@ The best place to contact the team is via the Slack channel. Alternatively you c
 Looking forward to hearing from you!
 
 ## License
-This project is licensed under an all rights reserved [licence](https://github.com/hudson-and-thames/hudsonthames_sphinx_theme/blob/master/LICENSE.txt).
+This project is licensed under an all rights reserved [licence](https://github.com/hudson-and-thames/hudsonthames-sphinx-theme/blob/master/LICENSE.txt).

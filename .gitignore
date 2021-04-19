@@ -8,5 +8,5 @@ test_reports
 cover/
 *.pickle
 */.ipynb_checkpoints/*
-mlfinlab.egg-info/*
+hudsonthames_rtd_theme.egg-info/*
 .eggs/

@@ -1,0 +1,94 @@
+/* Moving inherited navigation bar down to add the top-bar */
+.wy-nav-side {
+  padding-top: 65px;
+  padding-bottom: 0rem;
+}
+
+.wy-nav-content {
+  margin-top: 65px;
+}
+
+/* Setting parameters for the top-bar */
+#top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 500;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+  background-color: #030711;
+  color: #030711;
+  display: flex;
+  font-family: 'Josefin Sans';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Remove the top-bar when the window is too small and don't shift the inherited navigation bar down */
+@media (max-width: 768px) {
+  #top-bar {
+    display: none;
+  }
+
+  .wy-nav-side {
+  padding-top: 0px;
+  padding-bottom: 0rem;
+  }
+
+  .wy-nav-content {
+    margin-top: 0px;
+  }
+
+}
+
+/* Setting color for top-bar text items */
+#top-bar a {
+  color: #FFFFFF;
+}
+
+/* Making the whole drop-down box clickable */
+#top-bar ul a {
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+}
+
+/* Set color for top-bar menu items */
+#top-bar a:hover {
+  background-color: #292929;
+}
+
+/* Set color for hover over drop-down menus */
+#top-bar ul {
+  display: flex;
+  flex: 1;
+  color: #292929;
+}
+
+/* Set width of top-menu elements to match style */
+#top-bar li {
+  flex: 1;
+  position: relative;
+  text-align: center;
+  max-width: 200px;
+}
+
+/* Hiding top-bar drop-down elements and setting color */
+#top-bar ul ul {
+  left: 0;
+  top: 100%;
+  display: none;
+  color: #030711;
+  background-color: #030711;
+}
+
+/* Displaying drop-down elements if hovered upon */
+#top-bar li:hover ul {
+  display: block;
+}
+
+/* Highlight drop-down menu elements */
+#top-bar ul li:hover {
+  background-color: #292929;
+}

@@ -9,7 +9,7 @@ from setuptools import setup
 
 setup(
     name='hudsonthames_rtd_theme',
-    version='0.1.0',
+    version='0.1.1',
     author='Hudson and Thames Quantitative Research Limited',
     author_email='research@hudsonthames.org',
     license='All Rights Reserved',

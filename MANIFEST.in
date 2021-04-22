@@ -6,3 +6,4 @@ recursive-include hudsonthames_sphinx_theme *.py
 recursive-include hudsonthames_sphinx_theme *.html
 recursive-include hudsonthames_sphinx_theme *.css
 recursive-include hudsonthames_sphinx_theme *.conf
+recursive-include hudsonthames_sphinx_theme *.png

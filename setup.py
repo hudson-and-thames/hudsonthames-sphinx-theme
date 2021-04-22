@@ -31,7 +31,7 @@ setup(
     ]},
     include_package_data=True,
     # See https://smobsc.readthedocs.io/en/stable/theming.html#distribute-your-theme-as-a-python-package
-    entry_points = {
+    entry_points={
         'sphinx.html_themes': [
             'hudsonthames_sphinx_theme = hudsonthames_sphinx_theme',
         ]

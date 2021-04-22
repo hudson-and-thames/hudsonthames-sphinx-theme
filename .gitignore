@@ -8,5 +8,5 @@ test_reports
 cover/
 *.pickle
 */.ipynb_checkpoints/*
-hudsonthames_rtd_theme.egg-info/*
+hudsonthames_sphinx_theme.egg-info/*
 .eggs/

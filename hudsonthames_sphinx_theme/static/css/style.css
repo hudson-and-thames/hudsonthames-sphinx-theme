@@ -1,0 +1,170 @@
+/* Adjusting theme file */
+@import url("theme.css");
+
+/* Move href lower due to added top-bar part */
+html {
+  scroll-padding-top: 65px
+}
+
+/* Changing fonts for docs headers */
+.rst-content h1,h2,h3,h4,h5{
+  font-family: 'Josefin Sans';
+}
+
+/* Setting font size for headers */
+.rst-content h1 {
+  font-size: 240%;
+}
+
+.rst-content h2 {
+  font-size: 180%;
+}
+
+.rst-content h3 {
+  font-size: 160%;
+}
+
+/* Change the color for Note sections */
+.rst-content .note .admonition-title {
+  background: #0399AB;
+}
+
+.rst-content .note {
+  background: #E7F2FA;
+}
+
+/* Change the color for Warning sections */
+.rst-content .warning .admonition-title {
+  background: #D95F33;
+}
+
+.rst-content .warning {
+  background: #FCF2EE;
+}
+
+/* Setting font color in the left nav panel */
+.wy-menu-vertical a {
+  color: #FFFFFF;
+  font-weight: 200;
+}
+
+.wy-menu-vertical li.current a {
+  color: #FFFFFF;
+  font-weight: 200;
+}
+
+.wy-menu-vertical li ul li a {
+  color: #FFFFFF;
+  font-weight: 200;
+}
+
+/* Setting colors of selected toctree elements upon hover*/
+.wy-menu-vertical li.current a:hover {
+  background: #292929;
+}
+
+.wy-menu-vertical li.toctree-l2.current>a:hover{
+  background: #292929;
+}
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a:hover{
+  background: #292929;
+}
+
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a:hover{
+  background: #292929;
+}
+
+
+/* Setting colors of not selected toctree elements upon hover*/
+.wy-menu-vertical a:hover {
+  background: #292929;
+}
+
+/* Setting the width of the package logo */
+.wy-side-nav-search>a img.logo {
+  width: 10rem
+}
+
+.wy-side-nav-search .wy-dropdown>a img.logo {
+  width: 10rem
+}
+
+/* Setting background color behind the package logo */
+.wy-side-nav-search {
+  background-color: #030711;
+}
+
+/* Removing the "latest" version tag */
+.wy-side-nav-search>div.version {
+  display: none;
+}
+
+/* Setting color and font for toctree headers */
+.wy-menu-vertical header {
+  color: #0399AB;
+  font-family: 'Josefin Sans';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.wy-menu-vertical p.caption {
+  color: #0399AB;
+  font-family: 'Josefin Sans';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Setting color of selected toctree elements */
+.wy-menu-vertical li.on a,
+.wy-menu-vertical li.current>a {
+  background: #292929;
+  border-top: none;
+  border-bottom: none;
+}
+
+/* Setting color for left side navigation panel background color */
+.wy-side-scroll {
+  background-color: #030711;
+}
+
+.wy-menu-vertical ul {
+  background-color: #030711;
+}
+
+
+/* Setting colors of selected toctree elements*/
+.wy-menu-vertical li ul {
+  background-color: #292929;
+}
+
+.wy-menu-vertical li.toctree-l2.current>a {
+  background-color: #292929;
+}
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
+  background-color: #292929;
+}
+
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a {
+  background-color: #292929;
+}
+
+/* Set the color fot the top bar with small window size */
+.wy-nav-top {
+  background: #030711;
+}
+
+/* Setting the color of the package name on the top bar*/
+.wy-nav-top a {
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Setting color for implementation sections */
+html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple) > dt {
+    background: #E7F2FA;
+    color: #0399AB;
+    border-top: 3px solid #0399AB;
+}

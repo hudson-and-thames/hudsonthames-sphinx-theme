@@ -1,0 +1,8 @@
+include *.md
+include *.txt
+include *.in
+
+recursive-include hudsonthames_sphinx_theme *.py
+recursive-include hudsonthames_sphinx_theme *.html
+recursive-include hudsonthames_sphinx_theme *.css
+recursive-include hudsonthames_sphinx_theme *.conf

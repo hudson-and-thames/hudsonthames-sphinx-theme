@@ -8,8 +8,8 @@ from setuptools import setup
 
 
 setup(
-    name='hudsonthames_rtd_theme',
-    version='0.1.1',
+    name='hudsonthames_sphinx_theme',
+    version='0.1.2',
     author='Hudson and Thames Quantitative Research Limited',
     author_email='research@hudsonthames.org',
     license='All Rights Reserved',

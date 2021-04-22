@@ -4,7 +4,7 @@ Hudson and Thames Sphinx theme is used for documenting our packages such as MlFi
 
 from os import path
 
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 
 
 def get_html_theme_path():

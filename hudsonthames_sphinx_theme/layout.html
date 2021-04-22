@@ -1,0 +1,61 @@
+{% extends "sphinx_rtd_theme/layout.html" %}
+
+{% set css_files = css_files + ["_static/css/top_bar.css"] %}
+
+{% block extrabody %}
+
+<link href='https://fonts.googleapis.com/css?family=Josefin Sans:400,600' rel='stylesheet'>
+
+<nav id="top-bar">
+
+    <a href="https://hudsonthames.org/">
+    <img class="caption" src="{{ pathto('_static\images\logo_horisontal_white_teal.png', 1) }}"/>
+    </a>
+
+    <ul>
+    <li>
+        <a>GET STARTED</a>
+        <ul>
+        <li><a href="https://hudsonthames.org/research/">RESEARCH ARTICLES</a></li>
+        <li><a href="https://hudsonthames.org/definitive-guide-to-pairs-trading/">PAIRS TRADING GUIDE</a></li>
+        <li><a href="https://youtube.com/playlist?list=PLfv9eTYgatm3oz8uq8G17-50ed_s-n5ds">LECTURE VIDEOS</a></li>
+        <li><a href="https://mlfinlab.readthedocs.io/en/latest/getting_started/research_tools.html">RESEARCH TOOLS</a></li>
+        <li><a href="https://hudsonthames.org/apprenticeship-program/">APPRENTICESHIP</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a>PACKAGES</a>
+        <ul>
+        <li><a href="https://hudsonthames.org/arbitragelab/">ARBITRAGELAB</a></li>
+        <li><a href="https://hudsonthames.org/mlfinlab/">MLFINLAB</a></li>
+        <li><a href="https://hudsonthames.org/portfoliolab/">PORTFOLIOLAB</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="https://docs.dask.org/en/latest/setup.html">DOCUMENTATION</a>
+        <ul>
+        <li><a href="https://hudson-and-thames-arbitragelab.readthedocs-hosted.com/en/latest/">ARBITRAGELAB</a></li>
+        <li><a href="https://mlfinlab.readthedocs.io/en/latest/">MLFINLAB</a></li>
+        <li><a href="https://hudson-and-thames-mlfinlab-premium.readthedocs-hosted.com/en/latest/">MLFINLAB PRO</a></li>
+        <li><a href="https://hudson-and-thames-portfoliolab.readthedocs-hosted.com/en/latest/">PORTFOLIOLAB</a></li>
+        <li><a href="https://hudson-and-thames-portfoliolab-pro.readthedocs-hosted.com/en/latest/">PORTFOLIOLAB PRO</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a>COMMUNITY</a>
+        <ul>
+        <li><a href="https://portal.hudsonthames.org/dashboard/product/slack">SLACK</a></li>
+        <li><a href="https://twitter.com/hudson_thames">TWITTER</a></li>
+        <li><a href="https://www.linkedin.com/company/hudson-thames-quantiative-research/">LINKEDIN</a></li>
+        <li><a href="https://www.youtube.com/channel/UC8hI87gt0dmTAIEupEcsckA">YOUTUBE</a></li>
+        <li><a href="https://github.com/hudson-and-thames">GITHUB</a></li>
+        </ul>
+    </li>
+    </ul>
+
+</nav>
+
+{% endblock %}

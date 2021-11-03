@@ -9,7 +9,7 @@ from setuptools import setup
 
 setup(
     name='hudsonthames_sphinx_theme',
-    version='0.1.4',
+    version='0.1.5',
     author='Hudson and Thames Quantitative Research Limited',
     author_email='research@hudsonthames.org',
     license='All Rights Reserved',
